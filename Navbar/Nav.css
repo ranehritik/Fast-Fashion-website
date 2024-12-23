@@ -1,0 +1,141 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    margin-left: 14.7rem;
+    border-bottom: 2px solid #bdbdbd;;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    position: fixed;
+    z-index: 1000;  
+    top: 0px;
+    width: 83.2%;
+}
+.search-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding-bottom: 20px;
+    margin-left: 56px;
+}
+.label-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    position: absolute;
+    left: 10px; /* Space for the icon */
+    font-size: 20px;
+    color: #aaa;
+}
+.label-container input{
+    outline: none;
+    width: 300px; /* Adjust as needed */
+    padding: 10px 10px 10px 35px; /* Padding for the icon */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.lang-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    margin-left: 250px;
+    padding-bottom: 13px;
+}
+.lang-container p {
+    word-spacing: 2px;
+}
+.globe-icon{
+    padding-left: 7px;
+    font-size: 20px;
+}
+.btn-wishlist-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-bottom: 18px;
+}
+.wishlist-btn{
+    padding: 10px 13px;
+    font-size: 16px;
+    border-radius: 5px;
+    word-spacing: 2px;
+    color: #8266d8;
+    background-color:#ede8f5 ;
+    border: none;
+}
+.wishlist-btn{
+    font-size: 16px;
+    color: #8266d8;
+}
+.wishlist-btn:hover{
+    font-size: 17px;
+    color: #7252d0;
+    cursor: pointer;
+}
+.heart-icon{
+    color: #8266d8;
+    background-color:#ede8f5 ;
+    font-size: 22px;
+    margin-left: 7px;
+    vertical-align: middle;
+}
+
+.btn-cart-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 100px;
+    padding-bottom: 18px;
+}
+.cart-btnn{
+    padding: 10px 13px;
+    font-size: 16px;
+    border-radius: 5px;
+    word-spacing: 2px;
+    color: #8266d8;
+    background-color:#ede8f5 ;
+    border: none;
+}
+.cart-btnn:hover{
+    color: #7252d0;
+    font-size: 17px;
+    cursor: pointer;
+}
+.cart-iconn{
+    font-size: 22px;
+    margin-left: 7px;
+    vertical-align: middle;
+}
+.cart-total-item{
+    margin-top: -20px;
+    background-color: #e74c3c;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+.bitmoji-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4px;
+    margin-left: 100px;
+    padding-bottom: 13px;
+}
+.bitmoji-container img {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #bdbdbd;
+}
+

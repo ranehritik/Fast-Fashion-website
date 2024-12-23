@@ -1,0 +1,46 @@
+
+.sidebar-container{
+    position: fixed;
+    width: 16%;
+    height: 119%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    border-right: 2px solid #bdbdbd;
+    margin-top: -70px;
+    top: 0;
+    left: 0;
+    /* height: 100vh; */
+    justify-content: flex-start;
+}
+.icon-container{
+    /* margin-top: 1rem;
+    margin-bottom: 3.4rem;    */
+    margin-top: 4.2rem;
+    margin-bottom: 3rem;
+}
+.brand-icon{
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width: 120px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin-bottom: -45px; */
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: auto;
+        margin: 0; /* Remove any extra margin */
+        padding: 1rem 0; /* Add some controlled spacing */
+        /* margin-top: 50px; */
+}
+.line{
+    width: 101%;
+    border-bottom: 2px solid #bdbdbd;
+    margin-top: -35px;
+}

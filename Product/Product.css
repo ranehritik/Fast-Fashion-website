@@ -1,0 +1,113 @@
+.card-container{
+    margin-top: 12rem;
+    z-index: 1000;      
+    margin-left: 18rem;
+    width: 79%;
+    border: 2px solid #bdbdbd;
+    border-radius: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed; /*Keeps the container fixed to the viewport */
+    top: 0; /* Adjust as needed to align the container */
+    overflow-y: auto; /* Enable vertical scrolling for the cards */
+    overflow-x: hidden;
+    scroll-behavior: smooth; /* Enables smooth scrolling */
+    height: calc(100vh - 12rem);
+}
+.card-container::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    border: 2px solid #bdbdbd ; 
+    margin-top: 3.8rem;
+    margin-left: 4.5rem;
+    border-radius: 14px;
+    margin-bottom: 3.8rem;
+    pointer-events: auto; /* Re-enable interaction for individual cards */
+}
+.card-img{
+    width: 100%;
+    height: 330px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    object-position: top;
+}
+.title{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+.title h3{
+    font-weight: normal;
+}
+.prize{
+    margin-top: -8px;
+    margin-left: 15px;
+    padding-bottom: 18px;
+}
+.prize h4{
+    color: #a7a7a7;
+}
+.prize h3{
+    font-weight: 900;
+    margin-top: -15px;
+    padding-bottom: 20px;
+}
+.whislist{
+    position: absolute; 
+    top: 10px;          
+    right: 10px;       
+    cursor: pointer;
+}
+.whislist-btn{
+    background-color: transparent;
+    border: none;
+}
+.heart-btn{
+    font-size: 26px;
+    transition: color 0.2s ease;
+    color: gray;
+}
+.heart-btn:hover {
+    font-size: 28px;
+    color: red; 
+    cursor: pointer;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70%;
+    margin-top: -90px;
+    padding-bottom: 10px; 
+}
+.cart-button{
+    border-radius: 8px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;  
+    background-color:#8266d8 ;
+    color:#ede8f5 ;
+    padding: 8px 10px;
+}
+.cart-button:hover{
+    font-size: 20px;
+    color: #7252d0;
+    background-color: #ede8f5;
+    cursor: pointer;
+}
+
